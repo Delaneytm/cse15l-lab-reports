@@ -28,6 +28,8 @@ Test out some new commands. Try any of the following and see what the result is
 * cp /home/linux/ieng6/cs15lsp23/public/hello.txt~/
 * cat /home/linux/ieng6/cs15lsp23/public/hello.txt~/
 
-For example, refer to the following ![Image](commands.png)
+For example, refer to the following 
+
+![Image](commands.png)
 
 If you want to log off the remote server run `exit` in the terminal.
