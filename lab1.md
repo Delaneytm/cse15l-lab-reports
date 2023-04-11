@@ -1,7 +1,8 @@
-#Remote Access, a step by step tutorial
+# Remote Access, a step by step tutorial
 
-##Step 1 Installing VS Code
+**Step 1 Installing VS Code**
 
-Go to [VS Code](https://code.visualstudio.com/) 
-![Image](VS site.png)
-Follow the step by step instructions for your specific system. Once installed, it should look similar to the following. ![Image](openvs.png)
+Download [VS Code](https://code.visualstudio.com/) and follow the step by step instructions for your specific system. Once installed, it should look similar to the following. ![Image](openvs.png)
+After installation, download [Git](https://gitforwindows.org/) for windows and follow the instructions to install. Take care to not change any default settings.
+
+Once both programs are installed open a new terminal in VS Code by clicking `...` in the top bar then `Terminal` or by using `ctrl` and `'`
