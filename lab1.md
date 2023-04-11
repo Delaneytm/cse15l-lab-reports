@@ -4,4 +4,4 @@
 
 Go to [VS Code](https://code.visualstudio.com/) 
 ![Image](VS site.png)
-Follow the step by step instructions for your specific system. Once installed, it should look similar to ![Image](Install.png)
+Follow the step by step instructions for your specific system. Once installed, it should look similar to the following. ![Image](openvs.png)
