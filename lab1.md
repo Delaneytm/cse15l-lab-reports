@@ -3,5 +3,5 @@
 ##Step 1 Installing VS Code
 
 Go to [VS Code](https://code.visualstudio.com/) 
-![Image](
+![Image](VS site.png)
 follow the step by step instructions for your specific system.
