@@ -16,7 +16,8 @@ After 15 minutes, go to your terminal in VS Code. Type in
 
 `ssh yourcourseusername@ieng6.ucsd.edu`
 
-You will then be asked for your password **Important**: your password will not show as you type for privacy reasons. If this is your first time connecting, you will recieve a message. Please type `yes`. You have now successfully connected remotely.
+You will then be asked for your password **Important**: your password will not show as you type for privacy reasons. If this is your first time connecting, you will recieve a message. Please type `yes`. If you see the following or similar then you have now successfully connected remotely.
+![Image](login.png)
 
 ## Step 3 Run Some Commands
 
