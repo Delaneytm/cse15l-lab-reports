@@ -15,13 +15,27 @@ This code produces the following result. ![Image](test1.png) `Grep` returns all 
 
 We can test this code on another file within the `Media` directory. This time we used the following code:
 ```
-grep -n lawyer Annual_Fee.txt
+grep -n attorney Annual_Fee.txt
 ``` 
 which produced the following results ![Image](test2.png)
 This method is useful when searching for specific phrases that need to be corrected. Because the line number is printed with the line, we can easily identify it within the file. 
 
 ## Using grep -v
 
+Staying in the same directory `Media` we can look at the uses of `grep -v`. This command inverts the results and returns all lines without the key word. Using:
+```
+grep -v the Barnes_new_job.txt
+```
+will return the following result. ![Image](test3.png). As we can see, none of these lines contain the word the. 
+
+We can try looking at files in other directories by using the following coe:
+```
+cd ..
+cd ..
+cd 911report
+grep -v we preface.txt
+```
+You may notice that some sentences start with We however the w is capitalized while the command has a lowercase. For this reason, uppercase We is not excluded when using `grep -v`. 
 ## Using grep -c
 
 ## Using grep -i
