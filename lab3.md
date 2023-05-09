@@ -53,4 +53,4 @@ if we run the following code we will get a different result:
 grep -i Anthem Anthem_Payout.txt
 ```
 ## Using grep -c
-This command will gives.
+This command will give the number of occurrences of the given pattern. 
