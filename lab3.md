@@ -28,7 +28,7 @@ grep -v the Barnes_new_job.txt
 ```
 will return the following result. ![Image](test3.png). As we can see, none of these lines contain the word the. 
 
-We can try looking at files in other directories by using the following coe:
+We can try looking at files in other directories by using the following code:
 ```
 cd ..
 cd ..
@@ -36,6 +36,21 @@ cd 911report
 grep -v we preface.txt
 ```
 You may notice that some sentences start with We however the w is capitalized while the command has a lowercase. For this reason, uppercase We is not excluded when using `grep -v`. 
-## Using grep -c
 
 ## Using grep -i
+As we saw in the first example, only lines with `Anthem` were shown using grep and in the fourth example we saw that only lines with `we` were excluded. Now we will look at a method that ignores upper and lowercase. Using the same example as the previous one, we will use the following code to show what occurs when we use `grep` and `grep -i`:
+```
+grep we preface.txt
+grep -i we preface.txt
+```
+![Image](test5.png) ![Image](test6.png)
+When we compare the results, we see that using `-i` will give us any lines with upper or lower case.
+
+We can also look at the results from the first example shown below:
+![Image](test1.png)
+if we run the following code we will get a different result:
+```
+grep -i Anthem Anthem_Payout.txt
+```
+## Using grep -c
+This command will gives.
