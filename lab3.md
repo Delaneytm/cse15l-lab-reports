@@ -52,5 +52,21 @@ if we run the following code we will get a different result:
 ```
 grep -i Anthem Anthem_Payout.txt
 ```
+![Image](test6.png)
+
 ## Using grep -c
-This command will give the number of occurrences of the given pattern. 
+The final command we will look at will return the number of occurrences of the given pattern. For these examples we will look at different files using the following code:
+ ```
+ cd ..
+ cd ..
+ cd gweigweof
+ grep -c dgwejgwo ewigweogw
+ ```
+ which returns ![Image](test7.png) this command is useful when you need to count occurences in large text blocks. We can look at another example within the same file
+ ```
+ grep -c dsgg whefiwo
+ ```
+ which gives us ![Image](test8.png)
+ 
+ ## Conclusion
+ There are many ways to utilize`grep` depending on the desired result. THese four commands are examples; however, `grep` is not limited to these four examples. A simple search of grep command line operations will provide many interesting results. 
