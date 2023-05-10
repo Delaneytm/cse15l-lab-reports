@@ -53,7 +53,7 @@ cd Media
 grep anthem Anthem_Payout.txt
 grep -i anthem Anthem_Payout.txt
 ```
-!{Image](test7.png)
+![Image](test7.png)
 We can see that the first `grep` command returns no result while the second one returns many lines.
 
 ## Using grep -c
