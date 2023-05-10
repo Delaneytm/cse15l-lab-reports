@@ -11,7 +11,9 @@ cd government
 cd Media
 grep -n Anthem Anthem_Payout.txt
 ``` 
-This code produces the following result. ![Image](test1.png)
+This code produces the following result. 
+
+![Image](test1.png)
 
 `Grep` returns all the lines that have the phrase we are looking for in this case it is `Anthem`. Using `grep -n` returns the line number along with it. 
 
@@ -20,6 +22,7 @@ We can test this code on another file within the `Media` directory. This time we
 grep -n lawyer Annual_Fee.txt
 ``` 
 which produced the following results 
+
 ![Image](test2.png)
 
 This method is useful when searching for specific phrases that need to be corrected. Because the line number is printed with the line, we can easily identify it within the file. 
@@ -30,7 +33,9 @@ Staying in the same directory `Media` we can look at the uses of `grep -v`. This
 ```
 grep -v the Barnes_new_job.txt
 ```
-will return the following result. ![Image](test3.png). 
+will return the following result. 
+
+![Image](test3.png). 
 
 As we can see, none of these lines contain the word `the`. 
 
