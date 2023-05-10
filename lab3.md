@@ -91,4 +91,5 @@ This command is useful when you need to count occurences in large text blocks as
  ![Image](test9.png)
  
  ## Conclusion
+ 
  There are many ways to utilize`grep` depending on the desired result. These four commands are examples; however, `grep` is not limited to these four examples. A simple search of grep command line operations will provide many interesting results. 
