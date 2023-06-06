@@ -24,4 +24,5 @@ Next, I will run the tests again to check if they all pass. Because I had previo
 
 # Step 9
 Using (https://panjeh.medium.com/makefile-git-add-commit-push-github-all-in-one-command-9dcf76220f48) for reference, I first use the command `git add L<tab><enter>`. Note that pressing `L<tab>` results in `ListExamples.java` because I had previously typed out the whole file name. I then use `git commit -m "fixed ListExamples.java"<enter>` to push to Github, I used `git push origin main`. Theoretically, this should have worked, but I do not know why I was asked for a username. My research to find a solution has been inconclusive.
+![Image](push.png) 
 
