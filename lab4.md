@@ -14,6 +14,7 @@ The result should be as following:
 ## Step 6
 To check where I was currently at, I used `pwd <enter>` to check the current directory and `ls <enter>` to check the contents of the directory. I want to be in the `lab7` directory, so I used the command `cd lab7 <enter>` to change directories. I ran `ls <enter>` one more time just to double check the contents. After I saw what I wanted, I used `bash test.sh <enter>` to run the sh file. The result was as following:
 
+
 ![Image](bash.png)
 
 # Step 7
