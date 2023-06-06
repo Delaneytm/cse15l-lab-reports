@@ -26,6 +26,7 @@ The following shows the Vim result before pressing the final `<enter>`
 # Step 8
 Next, I will run the tests again to check if they all pass. Because I had previously used `bash test.sh`, I can use `<up><up><enter>` to look at my command history instead of typing the command again. I can now see that all the tests are passed.
 
+
 ![Image](pass.png)
 
 # Step 9
